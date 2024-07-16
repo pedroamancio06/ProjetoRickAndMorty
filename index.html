@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="shortcut icon" href="assets/img/logo-black 1.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <img src="assets/img/logo-black 1.png" alt="" class="">
+            
+            <ul class="nav-list">
+                <li><a href="#" class="nav-link">Characters</a></li>
+                <li><a href="#" class="nav-link">Locations</a></li>
+                <li><a href="#" class="nav-link">Episodes</a></li>
+            </ul>
+
+            <button><ion-icon name="menu-outline"></ion-icon></button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="characters-section">
+            <img src="assets/img/PngItem_438051 1.png" alt="" class="img_characters-section">
+
+            <div class="search-container">
+                <input type="search" id="name" placeholder="Filter by name...">
+                <select name="species" id="species">
+                    <option value="" default>Species</option>
+                    <option value="Animal">Animal</option>
+                    <option value="Alien">Alien</option>
+                    <option value="Disease">Disease</option>
+                    <option value="Unknown">Unknown</option>
+                    <option value="Human">Human</option>
+                    <option value="Humanoid">Humanoid</option>
+                    <option value="Poopybutthole">Poopybutthole</option>
+                    <option value="Robo">Robo</option>
+                </select>
+
+                <select name="gender" id="gender">
+                    <option value="" default>Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Genderless">Genderless</option>
+                    <option value="Unknown">Unknown</option>
+                </select>
+
+                <select name="status" id="status">
+                    <option value="" default>Status</option>
+                    <option value="Alive">Alive</option>
+                    <option value="Dead">Dead</option>
+                    <option value="Unknown">Unknown</option>
+                </select>
+            </div>
+
+            <div class="characters-container"></div>
+
+            <button class="btn-load-more">Load More</button>
+        </section>
+    </main>
+
+
+<script type = "módulo" src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+<script script nomodule src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" ></script>
+
+<script src="assets/scripts/main.js"></script>
+</body>
+</html>
